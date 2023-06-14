@@ -1,0 +1,62 @@
+/*Remove margin & padding from page*/ 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    /* backgroun-color: rgb(238,174,202); */
+    background-image: radial-gradient(circle, rgba(59, 186, 172, 1) 10%, rgba(56, 78, 182, 1) 100%);
+}
+
+.center-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* styling the heading tag stopWatch */
+.container-heading h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 55px;
+    padding: 24px 0px;
+    width: 32%;
+    margin: 35px auto;
+    box-shadow: 1px 0px 18px -2px rgba(0, 0, 0, 0.3);
+}
+ /* Added styling to the display watch in center  and display it little upward */
+.show-watch {
+    text-align: center;
+    width: 46%;
+    margin: 86px auto;
+    padding: 80px 0px;
+    box-shadow: 1px 0px 18px -2px rgba(0, 0, 0, 0.3);
+    ;
+}
+
+/* style given to timer */
+.timer-display {
+    font-size: 57px;
+    line-height: 82px;
+    margin: 25px 0px;
+    background: rgb(59, 166, 186);
+    box-shadow: 1px 0px 18px -2px rgba(0, 0, 0, 0.3);
+    width: 70%;
+    margin: 0 auto;
+    color: #ffffff;
+}
+ 
+/* styling all three buttons  using same class */
+.btn {
+    font-size: 22px;
+    line-height: 37px;
+    border-radius: 51%;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 10%, rgba(45, 115, 253, 1) 100%);
+    color: #ffffff;
+    width: 94px;
+    padding: 24px 0px;
+    margin: 28px 15px;
+    border: 0px solid transparent;
+    box-shadow: 1px 0px 18px -2px rgba(0, 0, 0, 0.3);
+}
